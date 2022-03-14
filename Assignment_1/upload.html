@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>THRFTR</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<div class="navbar">
+			<a href="home.html">Home</a>
+		  	<a href="forSale.html">Sale Items</a>
+		  	<div class="dropdown">
+	    		<button class="dropbtn">My Account<i class="fa fa-caret-down"></i></button>
+	    		<div class="dropdown-content">
+	      			<a href="sell.html">Sell Items</a>
+	      			<a href="viewAccount.html">View My Account</a>
+	    		</div>
+	  		</div> 
+		  	<a href="about.html">About</a>
+		  	<a href="contact.html">Contact</a>
+		</div>
+
+		<div class="header">
+			<img src="Images\headerImg.jpg" alt="HeaderImg" style="width:100%">
+			<div class="headerText">
+				<h1>THRFTR</h1>
+			</div>
+		</div>
+
+		<div class="uploadText">
+			<h2>Upload your Image</h2>
+			<form action="viewAccount.html">
+			  	<input type="file" id="myFile" name="filename"><br><br>
+				<label for="price">Price (in €)</label>
+    			<input type="text" id="price" name="Price" placeholder="The Price is..">
+    			<label for="decription">Description</label>
+    			<textarea id="decription" name="decription" placeholder="Write something.." style="height:200px"></textarea>
+			  	<input type="submit">
+			</form>
+		</div>
+
+		<footer class="footer">
+		  <p>Thanks for Visiting</p>
+		  <a href="home.html">Home</a>
+		  <a href="about.html">About</a>
+		  <a href="contact.html">Contact</a>
+		  <p>Powered by Shea Keogh</p>
+		</footer>
+	</body>
+</html>
